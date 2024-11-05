@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- LINK DE FAVICON -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+
+    <!-- ACA LINK DE ICONOS DE LAS REDES SOCIALES -->
+    <script src="https://kit.fontawesome.com/8f8394d7da.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header class="header">
+        <div>
+            <a class="link__img--container" href="../index.html">
+                <img class="nav__img" src="../assets/img/favicon-32x32.png" alt="Logo de la pagina">
+            </a>
+        </div>
+        <nav class="header__nav">
+            <ul class="nav__item--container">
+                <li class="nav__item">
+                    <a class="nav__link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Contacto</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="./faq.html">Preguntas frecuentes</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="./servicios.html">Servicios</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="form__titulo">FORMULARIO DE CONTACTO</h1>
+        <section class="form">
+            <form action="/submit" method="post">
+                <div class="form__input">
+                    <label for="nombre">Nombre y apellido:
+                        <input type="text" name="nombre" id="nombre" placeholder="Joe Salazar">
+                    </label>
+                </div>
+                <div class="form__input">
+                    <label for="email">Email:
+                        <input type="email" name="email" id="email" placeholder="mail@example.com">
+                    </label>
+                </div>
+                <div class="form__input">
+                    <label for="celular">Numero de celular:
+                        <input type="celular" name="celular" id="celular" placeholder="3402-343434">
+                    </label>
+                </div>
+                <div class="form__input">
+                    <label for="mensaje">Servicio solicitado:
+                        <textarea class="form__textarea" name="mensaje" id="mensaje" placeholder="Ej: Internet"></textarea>
+                    </label>
+                </div>
+                <div class="form__input">
+                    <label for="mensaje2">Pueblo:
+                        <textarea class="form__textarea" name="mensaje2" id="mensaje2" placeholder="Ej: Alvarez"></textarea>
+                    </label>
+                </div>
+                <div class="form__input">
+                    <input class="form__submit" type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__redes--container">
+            <p class="footer__redes--title">Redes</p>
+            <a class="footer__link" href="https://www.instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="footer__link" href="https://www.twitter.com" target="_blank">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a class="footer__link" href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+        <div class="footer__mail--container">
+            <p class="footer__mail--title">Contacto</p>
+            <a href="https://www.google.com">
+                <p class="footer__mail">ejemplo@gmail.com</p>
+            </a>
+        </div>
+        <div class="footer__wtsp--container">
+            <a class="footer__link--wtsp" href="https://www.whatsapp.com">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
