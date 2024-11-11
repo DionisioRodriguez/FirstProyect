@@ -20,11 +20,9 @@ body {
 header {
     grid-area: menu;
 }
-
 main {
     grid-area: contenido;
 }
-
 footer {
     grid-area: pie;
 }
@@ -100,6 +98,7 @@ header {
     margin-top: 30px;
     width: 70%;
     border: 3px solid #000;
+    margin-bottom: 55px;
 }
 
 /* FIN DE MAIN DEL INDEX */
@@ -112,6 +111,7 @@ header {
     align-items: center;
     justify-content: center;
     min-height: 60dvh;
+    margin-bottom: 124px;
 }
 
 form {
@@ -605,3 +605,19 @@ textarea {
 }
 
 /* FIN DEL FOOTER */
+
+/* MEDIA PARA TABLET */
+
+@media screen and (max-width:1024px) {
+
+}
+
+/* FIN MEDIA PARA TABLET */
+
+/* MEDIA PARA CELULAR */
+
+@media screen and (max-width:768px) {
+
+}
+
+/* FIN MEDIA PARA CELULAR */
