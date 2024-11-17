@@ -13,7 +13,7 @@ body {
     position: relative;
     background-color: #4293A6;
     display: grid;
-    grid-template-rows: 6vh 1fr 8dvh;
+    grid-template-rows: 6dvh 1fr 8dvh;
     grid-template-areas: "menu" "contenido" "pie";
 }
 
@@ -98,7 +98,7 @@ header {
     margin-top: 30px;
     width: 70%;
     border: 3px solid #000;
-    margin-bottom: 55px;
+    margin-bottom: 15px;
 }
 
 /* FIN DE MAIN DEL INDEX */
