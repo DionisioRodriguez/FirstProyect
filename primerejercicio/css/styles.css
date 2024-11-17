@@ -603,13 +603,16 @@ textarea {
     color: #fff;
     margin-right: 15px;
 }
+.footer__wtsp--container1 .uno {
+    display: none;
+}
 
 /* FIN DEL FOOTER */
 
 /* MEDIA PARA TABLET */
 
 @media screen and (max-width:1024px) {
-
+    
 }
 
 /* FIN MEDIA PARA TABLET */
@@ -617,7 +620,16 @@ textarea {
 /* MEDIA PARA CELULAR */
 
 @media screen and (max-width:768px) {
+/* INICIO PARTE MEDIA FOOTER */
 
+    .footer__wtsp--container {
+        display: none;
+    }
+    .footer__wtsp--container1 {
+        display: block;
+    }
+
+/* FIN PARTE MEDIA FOOTER */
 }
 
 /* FIN MEDIA PARA CELULAR */
