@@ -603,9 +603,6 @@ textarea {
     color: #fff;
     margin-right: 15px;
 }
-.footer__wtsp--container1 .uno {
-    display: none;
-}
 
 /* FIN DEL FOOTER */
 
@@ -622,12 +619,7 @@ textarea {
 @media screen and (max-width:768px) {
 /* INICIO PARTE MEDIA FOOTER */
 
-    .footer__wtsp--container {
-        display: none;
-    }
-    .footer__wtsp--container1 {
-        display: block;
-    }
+
 
 /* FIN PARTE MEDIA FOOTER */
 }
