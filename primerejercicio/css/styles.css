@@ -527,6 +527,7 @@ textarea {
 
 .footer__redes--title {
     font-size: 22px;
+    margin-bottom: 0;
 }
 
 .footer__mail--container {
