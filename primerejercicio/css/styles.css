@@ -607,13 +607,15 @@ textarea {
 
 /* FIN GENERAL */
 
-/* PARTE HEADER */
+/* PARTE INDEX */
 
-    .header__nav {
-        display: none;
+    .principal__img {
+        margin-top: 0px;
+        margin-bottom: 269px;
+        width: 90%;
     }
 
-/* FIN PARTE HEADER */
+/* FIN PARTE INDEX */
 
 /* PARTE CONTACTO */
 
@@ -629,6 +631,7 @@ textarea {
     }
 
 /* FIN PARTE CONTACTO */
+
 /* INICIO PARTE MEDIA FOOTER */
 
     footer {
