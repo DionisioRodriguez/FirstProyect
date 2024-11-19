@@ -324,6 +324,7 @@ textarea {
     border-radius: 30px;
     width: 600px;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .internet__title--container {
@@ -362,6 +363,7 @@ textarea {
 
 .internet__premiun {
     font-size: 22px;
+    margin: 0;
 }
 
 .internet--container i {
@@ -498,12 +500,6 @@ textarea {
 
 /* FIN PARTE PACK DE DTVGO, DISNEY+ Y COMPLETO */
 
-/* INICIO PARTE PACK COMPLETO */
-
-
-
-/* FIN PARTE PACK COMPLETO */
-
 /* FIN PARTE PACK */
 
 /* FIN DEL MAIN DE SERVICIOS */
@@ -558,6 +554,10 @@ textarea {
     font-size: 40px;
     color: #fff;
     margin-right: 15px;
+}
+
+div .wtsp {
+    display: none;
 }
 
 /* FIN DEL FOOTER */
@@ -632,7 +632,49 @@ textarea {
 
 /* FIN PARTE CONTACTO */
 
-/* INICIO PARTE MEDIA FOOTER */
+/* PARTE SERVICIOS */
+
+/* CATEGORIA */
+
+    .servicios--container {
+        flex-direction: column;
+        margin-top: 6px;
+    }
+
+    .servicios__categoria--container, .internet--container {
+        flex-direction: column;
+        width: 100dvh;
+        border-radius: 0;
+        border: none;
+    }
+
+    .servicios__categoria--container {
+        margin-bottom: 25px;
+    }
+
+/* FIN CATEGORIA */
+
+/* PLAN */
+
+
+
+/* FIN PLAN */
+
+/* PACK FOX Y HBO */
+
+
+
+/* FIN PACK FOX Y HBO */
+
+/* PACK DTVGO, DISNEY+ Y COMPLETO */
+
+
+
+/* FIN PACK DTCGO, DISNEY+ Y COMPLELTO */
+
+/* FIN PARTE SERVICIOS */
+
+/* INICIO PARTE FOOTER */
 
     footer {
         height: 55px;
@@ -660,7 +702,7 @@ textarea {
         font-size: 24px;
     }
 
-/* FIN PARTE MEDIA FOOTER */
+/* FIN PARTE FOOTER */
 }
 
 /* FIN MEDIA PARA CELULAR */
