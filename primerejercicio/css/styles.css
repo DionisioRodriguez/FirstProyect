@@ -583,7 +583,6 @@ div .wtsp {
 
     body {
         max-width: 100dvw;
-        overflow: hidden;
     }
     header {
         max-width: 100dvw;
@@ -769,6 +768,11 @@ div .wtsp {
 
     .pack-completo-img--container {
         display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pack-completo-img--container img {
+        width: 80%;
     }
 
 /* FIN PACK DTCGO, DISNEY+ Y COMPLELTO */
