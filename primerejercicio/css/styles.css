@@ -759,11 +759,13 @@ div .wtsp {
 
     .pack-general--container {
         flex-direction: column;
+        margin-bottom: 0;
     }
 
     .pack-completo--container {
         width: 100dvw;
         margin-top: 30px;
+        border-radius: 12px 12px 0 0;
     }
 
     .pack-completo-img--container {
