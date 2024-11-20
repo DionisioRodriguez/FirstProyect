@@ -434,14 +434,16 @@ textarea {
 .pack-fox__title {
     background-color: #8AEFF9;
     margin: 0 320px 10px 320px;
-    padding: 5px 0;
+    padding: 5px 7px;
     border-radius: 12px;
+    font-size: 25px;
 }
 .pack-hbo__title {
     background-color: #8AEFF9;
     margin: 0 300px 10px 300px;
-    padding: 5px 0;
+    padding: 5px 7px;
     border-radius: 12px;
+    font-size: 25px;
 }
 
 /* FIN PARTE PACK DE FOX Y HBO */
@@ -472,14 +474,16 @@ textarea {
 .pack-dtvgo__title {
     background-color: #8AEFF9;
     margin: 0 35px 10px 35px;
-    padding: 5px 0;
+    padding: 5px 7px;
     border-radius: 12px;
+    font-size: 25px;
 }
 .pack-disney__title {
     background-color: #8AEFF9;
     margin: 0 35px 20px 35px;
-    padding: 5px 0;
+    padding: 5px 7px;
     border-radius: 12px;
+    font-size: 25px;
 }
 
 .pack-completo--container {
@@ -494,8 +498,9 @@ textarea {
     padding: 5px 0;
     background-color: #8AEFF9;
     margin: 0 490px 20px 490px;
-    padding: 5px 0;
+    padding: 5px 7px;
     border-radius: 12px;
+    font-size: 25px;
 }
 
 /* FIN PARTE PACK DE DTVGO, DISNEY+ Y COMPLETO */
@@ -577,14 +582,14 @@ div .wtsp {
 @media screen and (max-width:768px) {
 
     body {
-        max-width: 768px;
-        overflow-y: hidden;
+        max-width: 100dvw;
+        overflow: hidden;
     }
     header {
-        max-width: 768px;
+        max-width: 100dvw;
     }
     footer {
-        max-width: 768px;
+        max-width: 100dvw;
     }
 
 /* PARTE HEADER */
@@ -637,6 +642,10 @@ div .wtsp {
 
 /* PARTE SERVICIOS */
 
+    .servicio__titulo {
+        margin-top: 100px;
+    }
+
 /* CATEGORIA */
 
     .servicios--container {
@@ -646,7 +655,7 @@ div .wtsp {
 
     .servicios__categoria--container, .internet--container {
         flex-direction: column;
-        width: 100dvh;
+        width: 100dvw;
         border-radius: 0;
         border: none;
     }
@@ -659,19 +668,108 @@ div .wtsp {
 
 /* PLAN */
 
+    .internet__title--container {
+        margin: 15px 30px;
+        padding: 15px 10px 5px 10px;
+    }
 
+    .internet__premiun--container {
+        margin: 12px 20px 0 20px;
+    }
+
+    .internet__plan {
+        margin: 0;
+    }
+    .internet--container i {
+        margin: 0;
+    }
+    .internet__premiun--container i {
+        margin-right: 7px;
+    }
 
 /* FIN PLAN */
 
 /* PACK FOX Y HBO */
 
+    .pack__title {
+        margin: 50px auto 0 auto;
+        padding: 10px 10px;
+        font-size: 22px;
+        border-radius: 0;
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+        border-right: none;
+        border-left: none;
+    }
 
+    .pack__foxhbo--container {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .servicio__img--container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pack-fox--container {
+        width: 100dvw;
+        margin-bottom: 30px;
+    }
+    .pack-fox__title, .pack-hbo__title, .pack-dtvgo__title, .pack-disney__title, .pack-completo__title {
+        margin: 0 50px 10px 50px;
+        padding: 2px 5px;
+        border-bottom: 3px solid #000;
+    }
+
+    .pack-hbo--container {
+        width: 100dvw;
+    }
+
+    .pack-fox__img1, .pack-fox__img2, .pack-fox__img3 {
+        width: 55%;
+    }
 
 /* FIN PACK FOX Y HBO */
 
 /* PACK DTVGO, DISNEY+ Y COMPLETO */
 
+    .pack-dtvgodisney--container {
+        flex-direction: column;
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
 
+    .pack-dtvgo--container, .pack-disney--container {
+        background-color: #fff;
+        box-shadow: 0 0 20px #000;
+        padding: 15px;
+        width: 100dvw;
+        border-radius: 12px;
+    }
+    .pack-disney--container {
+        margin-top: 30px;
+    }
+
+    .pack-dtvgo__title, .pack-disney__title {
+        margin-bottom: 15px;
+    }
+
+    .pack-general--container {
+        flex-direction: column;
+    }
+
+    .pack-completo--container {
+        width: 100dvw;
+        margin-top: 30px;
+    }
+
+    .pack-completo-img--container {
+        display: flex;
+    }
 
 /* FIN PACK DTCGO, DISNEY+ Y COMPLELTO */
 
