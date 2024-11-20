@@ -515,6 +515,8 @@ textarea {
     text-align: center;
     border-top: 3px solid #0008;
     background-color: #1B5966;
+    position: relative;
+    z-index: 10;
 }
 
 .footer__redes--container {
@@ -576,6 +578,7 @@ div .wtsp {
 
     body {
         max-width: 768px;
+        overflow-y: hidden;
     }
     header {
         max-width: 768px;
@@ -700,6 +703,10 @@ div .wtsp {
 
     .footer__redes--container i {
         font-size: 24px;
+    }
+    
+    div .wtsp {
+        display: inline-block;
     }
 
 /* FIN PARTE FOOTER */
