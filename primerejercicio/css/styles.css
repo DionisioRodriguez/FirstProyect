@@ -607,7 +607,12 @@ div .wtsp {
         flex-wrap: wrap;
     }
 
-    .servicio__titulo, .principal__titulo, .form__titulo, .faq__titulo, .primer__titulo {
+    .servicio__titulo, .principal__titulo, .primer__titulo {
+        font-size: 28px;
+        margin: 30px auto;
+        margin-top: 100px;
+    }
+    .faq__titulo, .form__titulo {
         font-size: 22px;
         margin: 30px auto;
         margin-top: 100px;
@@ -642,7 +647,22 @@ div .wtsp {
 
 /* PARTE FAQ */
 
+    .faq--container {
+        margin: 0 20px 25px 20px;
+        padding: 0;
+    }
 
+    .faq__pregunta {
+        margin: 0 auto 10px auto;
+    }
+
+    .faq__respuesta {
+        margin: 0 10px;
+    }
+
+    .ultimo-faq {
+        margin: 0;
+    }
 
 /* FIN PARTE PACK */
 
