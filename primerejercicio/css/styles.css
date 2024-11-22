@@ -624,7 +624,6 @@ div .wtsp {
 
     .principal__img {
         margin-top: 0px;
-        margin-bottom: 269px;
         width: 90%;
     }
 
@@ -644,6 +643,91 @@ div .wtsp {
     }
 
 /* FIN PARTE CONTACTO */
+
+/* PARTE NOSOTROS */
+
+/* PRINCIPAL */
+
+    .primer__img {
+        width: 85%;
+        margin-top: 100px;
+    }
+
+    .primer__titulo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+/* FIN PRINCIPAL */
+
+/* NOSOTROS */
+
+    .nosotros__pregunta {
+        text-align: center;
+        margin-left: 0;
+        font-size: 25px;
+    }
+
+    .nosotros__item--container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nosotros__item {
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .nosotros__respuesta {
+        margin: 20px 15px;
+        font-size: 15px;
+    }
+
+/* FIN NOSOTROS */
+
+/* TRABAJO */
+
+    .trabajo__titulo, .pueblo__titulo {
+        margin: 35px auto 10px auto;
+        font-size: 27px;
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+        border-right: none;
+        border-left: none;
+    }
+
+    .trabajo--container {
+        flex-direction: column;
+    }
+
+/* FIN TRABAJO */
+
+/* PUEBLO */
+
+    .pueblo--container {
+        flex-direction: column;
+    }
+
+    .pueblo__img--container {
+        position: static;
+    }
+
+    .pueblo__img {
+        border-radius: 30px;
+    }
+
+    .pueblo__nombre {
+        position: static;
+        margin: 8px 60px;
+    }
+
+    .ultimo-pueblo {
+        margin-bottom: 10px;
+    }
+
+/* FIN PUEBLO */
+
+/* FIN PARTE NOSOTROS */
 
 /* PARTE FAQ */
 
