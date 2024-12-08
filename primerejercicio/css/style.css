@@ -1,7 +1,16 @@
 /* VARIABLES */
+/* EXTEND */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.border, .pack__title, .servicios--container .internet--container .internet__title--container, .servicios--container .internet--container, .servicios--container .servicios__categoria--container, .faq--container .faq__pregunta--container, .pueblo .pueblo--container .pueblo__img--container .pueblo__nombre, .pueblo .pueblo--container .pueblo__img--container .pueblo__img, .principal__img {
+  border: 3px solid #000;
+}
+
+.font-size25, .pack-triple--container .pack-completo--container .pack-completo__title, .pack-triple--container .pack-dtvgodisney--container .pack-disney--container .pack-disney__title, .pack-triple--container .pack-dtvgodisney--container .pack-dtvgo--container .pack-dtvgo__title, .pack__foxhbo--container .pack-hbo--container .pack-hbo__title, .pack__foxhbo--container .pack-fox--container .pack-fox__title, .pueblo .pueblo--container .pueblo__img--container .pueblo__nombre, .nosotros .nosotros--container .nosotros__item--container .nosotros__item {
+  font-size: 25px;
+}
+
 /* MIXINS */
 /* RESET */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -118,7 +127,6 @@ body {
 .principal__img {
   margin-top: 30px;
   width: 70%;
-  border: 3px solid #000;
   margin-bottom: 15px;
 }
 @media screen and (max-width: 768px) {
@@ -240,6 +248,8 @@ body {
   background-color: #fff;
   border-top: 3px solid #000;
   border-bottom: 3px solid #000;
+  border-right: none;
+  border-left: none;
 }
 .nosotros .nosotros--container .nosotros__pregunta {
   margin: 20px 0 30px 70px;
@@ -249,7 +259,6 @@ body {
   .nosotros .nosotros--container .nosotros__pregunta {
     text-align: center;
     margin-left: 0;
-    font-size: 25px;
   }
 }
 .nosotros .nosotros--container .nosotros__item--container {
@@ -262,13 +271,11 @@ body {
   }
 }
 .nosotros .nosotros--container .nosotros__item--container .nosotros__item {
-  font-size: 25px;
   color: rgba(0, 0, 0, 0.6666666667);
 }
 @media screen and (max-width: 768px) {
   .nosotros .nosotros--container .nosotros__item--container .nosotros__item {
     text-align: center;
-    font-size: 25px;
   }
 }
 .nosotros .nosotros--container .nosotros__item--container .nosotros__respuesta {
@@ -295,12 +302,12 @@ body {
 }
 @media screen and (max-width: 768px) {
   .trabajo .trabajo__titulo {
-    margin: 35px auto 10px auto;
-    font-size: 27px;
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
     border-right: none;
     border-left: none;
+    margin: 35px auto 10px auto;
+    font-size: 27px;
   }
 }
 .trabajo .trabajo--container {
@@ -341,12 +348,12 @@ body {
 }
 @media screen and (max-width: 768px) {
   .pueblo .pueblo__titulo--container .pueblo__titulo {
-    margin: 35px auto 10px auto;
-    font-size: 27px;
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
     border-right: none;
     border-left: none;
+    margin: 35px auto 10px auto;
+    font-size: 27px;
   }
 }
 .pueblo .pueblo--container {
@@ -376,7 +383,6 @@ body {
 .pueblo .pueblo--container .pueblo__img--container .pueblo__img {
   width: 90%;
   border-radius: 30px 30px 30px 0;
-  border: 3px solid #000;
 }
 @media screen and (max-width: 768px) {
   .pueblo .pueblo--container .pueblo__img--container .pueblo__img {
@@ -387,14 +393,12 @@ body {
   box-shadow: 0 0 15px #000;
 }
 .pueblo .pueblo--container .pueblo__img--container .pueblo__nombre {
-  font-size: 25px;
   position: absolute;
   z-index: 10;
   bottom: -16px;
   left: 25px;
   padding: 0 10px;
   background-color: #fff;
-  border: 3px solid #000;
 }
 @media screen and (max-width: 768px) {
   .pueblo .pueblo--container .pueblo__img--container .pueblo__nombre {
@@ -421,7 +425,6 @@ body {
 }
 .faq--container .faq__pregunta--container {
   margin-bottom: 40px;
-  border: 3px solid #000;
   background-color: #fff;
 }
 .faq--container .faq__pregunta--container .faq__pregunta {
@@ -488,7 +491,6 @@ body {
   padding: 10px;
   background-color: #fff;
   border-radius: 30px;
-  border: 3px solid #000;
 }
 @media screen and (max-width: 768px) {
   .servicios--container .servicios__categoria--container {
@@ -518,7 +520,6 @@ body {
   align-items: center;
   justify-content: inherit;
   background-color: #fff;
-  border: 3px solid #000;
   border-radius: 30px;
   width: 700px;
   text-align: center;
@@ -537,7 +538,6 @@ body {
 .servicios--container .internet--container .internet__title--container {
   margin: 28px 70px 0 70px;
   padding: 15px;
-  border: 3px solid #000;
   color: #358a96;
 }
 @media screen and (max-width: 768px) {
@@ -616,20 +616,19 @@ body {
   font-size: 32px;
   text-transform: uppercase;
   background-color: #fff;
-  border: 3px solid #000;
   color: #1B5966;
   border-radius: 8px;
 }
 @media screen and (max-width: 768px) {
   .pack__title {
-    margin: 50px auto 0 auto;
-    padding: 10px 10px;
-    font-size: 22px;
-    border-radius: 0;
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
     border-right: none;
     border-left: none;
+    margin: 50px auto 0 auto;
+    padding: 10px 10px;
+    font-size: 22px;
+    border-radius: 0;
   }
 }
 
@@ -668,7 +667,6 @@ body {
   margin: 0 320px 10px 320px;
   padding: 5px 7px;
   border-radius: 12px;
-  font-size: 25px;
 }
 @media screen and (max-width: 768px) {
   .pack__foxhbo--container .pack-fox--container .pack-fox__title {
@@ -731,7 +729,6 @@ body {
   margin: 0 320px 10px 320px;
   padding: 5px 7px;
   border-radius: 12px;
-  font-size: 25px;
 }
 @media screen and (max-width: 768px) {
   .pack__foxhbo--container .pack-hbo--container .pack-hbo__title {
@@ -822,7 +819,6 @@ body {
   margin: 0 35px 10px 35px;
   padding: 5px 7px;
   border-radius: 12px;
-  font-size: 25px;
 }
 @media screen and (max-width: 768px) {
   .pack-triple--container .pack-dtvgodisney--container .pack-dtvgo--container .pack-dtvgo__title {
@@ -857,7 +853,6 @@ body {
   margin: 0 35px 10px 35px;
   padding: 5px 7px;
   border-radius: 12px;
-  font-size: 25px;
 }
 @media screen and (max-width: 768px) {
   .pack-triple--container .pack-dtvgodisney--container .pack-disney--container .pack-disney__title {
@@ -892,7 +887,6 @@ body {
   margin: 0 490px 20px 490px;
   padding: 5px 7px;
   border-radius: 12px;
-  font-size: 25px;
 }
 @media screen and (max-width: 768px) {
   .pack-triple--container .pack-completo--container .pack-completo__title {
