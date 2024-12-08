@@ -143,15 +143,26 @@ body, header, footer {
         .nav__link {
             @include flex(inherit, inherit, space-evenly);
             font-size: 22px;
-            margin-right: 25px;
+            margin-right: 13px;
 
             a {
                 color: #000;
+                padding: 0 8px;
+
+                &:hover {
+                    border-bottom: 1px solid #000;
+                    transform: translateY(-5px);
+                }
+
+                &:active {
+                    color: #000a;
+                    border-bottom-color: #000a;
+                }
             }
         }
 
         .nav__link:last-child {
-            margin-right: 35px;
+            margin-right: 12px;
         }
     }
 }
@@ -316,7 +327,7 @@ body, header, footer {
             }
 
             .nosotros__respuesta {
-                margin: 20px 0 30px 30px;
+                margin: 8px 0 30px 30px;
                 font-size: 18px;
 
                 @include movile {
@@ -360,9 +371,9 @@ body, header, footer {
             margin: 20px;
 
             .trabajo__img {
+                @extend .border;
                 border-radius: 30px;
                 width: 100%;
-                border: 2px solid #000;
             }
         }
     }
@@ -484,10 +495,10 @@ body, header, footer {
             background-color: #fff;
             padding: 0 10px 10px 10px;
             font-size: 20px;
-            text-align: center;
 
             @include movile {
                 margin: 0 10px;
+                text-align: center;
             }
         }
     }
